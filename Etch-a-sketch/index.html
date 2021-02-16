@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap" rel="stylesheet">
+        <title>Etch-a-Sketch</title>
+        <link href="styles/styles.css" rel=stylesheet>
+    </head>
+
+    <body>
+        <h1>Etch-a-Sketch</h1>
+
+        <div class="userInput">
+            <label for="userWidth"><b>Change resolution</b> (choose value between 2 and 100):</label>
+            <input type="text" id="userWidth">
+            <button id="textSubmit">Create new canvas</button>
+        </div>
+
+        <br>
+        
+        <div class="colorRow">
+            <div class="userInput">
+                <button class="colorButton colorButtonSelected" id="buttonBlack"></button>
+                <button class="colorButton" id="buttonRed"></button>
+                <button class="colorButton" id="buttonBlue"></button>
+                <button class="colorButton" id="buttonGreen"></button>
+
+                <button id="clearButton">Clear Canvas</button>
+            </div>
+        </div>
+
+
+        <div class="userInput">
+            <p>Hover mouse over canvas to draw!</p>
+        </div>
+
+        <div id="container"></div>
+        
+        <script src="scripts/scripts.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to bottom, white, grey)
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 750px;
+    height: 750px;
+}
+
+.pixel {
+    display: block;
+    float: left;
+    margin: -1;
+}
+
+.backgroundBlack {
+    background-color: black;
+}
+
+.backgroundRed {
+    background-color: red;
+}
+
+.backgroundBlue {
+    background-color: blue;
+}
+
+.backgroundGreen {
+    background-color: green;
+}
+
+#userWidth {
+    width: 50px;
+}
+
+.userInput {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.colorRow {
+    position: relative;
+}
+
+.colorButton {
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#clearButton {
+    position: absolute;
+    top: 1px;
+    height: 25px;
+    
+}
+
+.colorButtonSelected {
+    border: solid yellow 3px;
+    transform: scale(1.4);
+}
+
+#buttonBlack {
+    background-color: black;
+}
+
+#buttonRed {
+    background-color: red;
+}
+
+#buttonBlue {
+    background-color: blue;
+}
+
+#buttonGreen {
+    background-color: green;
+}
